@@ -1,5 +1,9 @@
+import Pkg
+
+Pkg.add("Blink")
+
 using Blink
-Blink.AtomShell.install() # downloads Blink dependencies
+# Blink.AtomShell.install() # downloads Blink dependencies
 
 function myCalc()
     w = Window() # initialises the main Window
